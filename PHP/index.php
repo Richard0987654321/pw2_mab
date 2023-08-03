@@ -7,7 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 <body>
-    <form action="dados.php" method="post">
+    <div class="container">
+    <form action="dados.php" method="post" enctype="multipart/form-data">
         
         <div class="mb-3">
             <label class="form-label">nome</label>
@@ -81,7 +82,7 @@
         <div class="mb-3">
            <input type="submit" class="btn bnt-primary" value="ENVIAR">
         </div>
-
+        </div>
     </form>
     
 </body>
